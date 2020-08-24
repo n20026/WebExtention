@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+h1 {
+	padding: 0.5em;
+	color: #010101;
+	background: #eaf3ff;
+	border-bottom: solid 3px #516ab6;
+}
+
+h2 {
+	padding: 0.25em 0.5em;
+	color: #494949;
+	background: transparent;
+	border-left: solid 5px #7db4e6;
+}
+
+h3 {
+	margin-top: 2.5em;
+	margin-bottom: 2em;
+	position: relative;
+	padding: 0.6em;
+	background: #e0edff;
+}
+
+hr {
+	border-top: 3px solid #7db4e6;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+a {
+	color: #0073bc;
+}
+a:link {
+	color: #0073bc;
+}
+a:visited {
+	color: #02314c;
+}
+a:hover {
+	color: #b7dbf2;
+}
+a:active {
+	color: #4ca4e8;
+}
+
+.item {
+	border: 1px solid #cccccc;
+	width: 784px;
+	height: 400px;
+}
