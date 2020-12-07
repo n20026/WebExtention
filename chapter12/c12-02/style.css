@@ -32,7 +32,11 @@ section .container {
 	height: 400px;
 }
 
-.sidebar {
+.sidebar1 {
+	padding: 20px 10px 20px 10px;
+	background: #c0f5b9;
+}
+.sidebar2 {
 	padding: 20px 10px 20px 10px;
 	background: #c0f5b9;
 }
@@ -56,9 +60,16 @@ footer {
 	}
     main {
     	flex: 1 1 auto;
+    	order: 2;
     } 
-    .sidebar {
-    	flex: 0 0 340px;
+    .sidebar1 {
+    	flex: 0 0 200px;
+    	order: 1;
+    }
+    .sidebar2 {
+    	flex: 0 0 250px;
+    	order: 3;
     }
  }
+
 
